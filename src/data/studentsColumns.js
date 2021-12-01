@@ -7,7 +7,7 @@ const Columns = () => {
   return useMemo(
     () => [
       {
-        Header: () => <Styled.Header>Fullname</Styled.Header>,
+        Header: "",
         accessor: "feeStatus",
         width: "1%",
         Cell: ({ row }) => (
