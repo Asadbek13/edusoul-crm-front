@@ -11,7 +11,7 @@ const Columns = () => {
         accessor: "feeStatus",
         width: "1%",
         Cell: ({ row }) => (
-          <Styled._>
+          <Styled._ attr="icon">
             {row.original.feeStatus === "notPaid" ? <DollarIcon /> : ""}
           </Styled._>
         ),
