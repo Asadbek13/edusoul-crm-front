@@ -13,7 +13,7 @@ const Main = (props) => {
         <TopBar />
         <Styled._ attr="content">
           <div>
-            <Attendance />
+            <Students />
           </div>
         </Styled._>
       </Styled._>
